@@ -11,6 +11,7 @@ body{
     background-color: black;
     margin: 0 auto;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-orange{
@@ -287,7 +288,7 @@ th,td{
 
 .team-section{
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -335,6 +336,49 @@ th,td{
     bottom: 8%;
     color: rgb(173, 173, 173);
     font-size: 20px;
+}
+
+
+/* footer Section Styles*/
+
+footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 10px;
+    background-color: rgba(122, 122, 122, 0.266);
+
+}
+.footer-first-part{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgba(121, 119, 119, 0.61);
+}
+.footer-title{
+    font-size: 52px;
+    color: rgb(255, 68, 0);
+}
+.footer-first-part div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-first-part div h3{
+    font-size: 20px;
+    color: rgba(212, 212, 212, 0.815);
+}
+.footer-last-part h3{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgba(212, 212, 212, 0.815);
 }
 
 
